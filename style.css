@@ -1,0 +1,172 @@
+body{
+    margin: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 942px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    align-content: center;
+    justify-content:space-between ;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu-item{
+    list-style-type: none;
+    margin-right: 42px;
+}
+
+.menu-link{
+    text-decoration:none ;
+    color:#FED136;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400px;
+    text-transform: uppercase;
+}
+
+.title{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 700px;
+    font-size: 40px;
+}
+
+.content-services{
+    text-align: center;
+    margin-top: 95px;
+    margin-bottom: 110px;
+}
+
+.services-services{
+    display: flex;
+    margin-bottom: 110px;
+}
+
+.services-list{
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+    padding: 0px;
+}
+
+
+.title-item{
+    font-family: 'Montserrat';
+    font-weight: 700px;
+    text-align: center;
+}
+
+.services-item{
+    text-align: center;
+}
+
+.text-item{
+    font-family: 'Roboto Slab';
+    font-weight: 400px;
+    font-size: 14px;
+    color: #777777;
+}
+
+.form{
+    background: #222222;
+    height: 679px;
+}
+
+.form-input{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+
+    font-size: 14px;
+    color: #BBBBBB;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-style: normal;
+
+    outline: none;
+    padding: 12px 20px 21px 20px;
+    border-radius: 4px;
+    width: 100%;
+
+    margin-bottom: 32px;
+}
+
+.form-input:last-child {
+    margin-bottom: 0px;
+}
+
+.form-input::placeholder{
+    font-size: 14px;
+    color: #BBBBBB;
+}
+
+.form-input:focus {
+    border-color: greenyellow; 
+}
+
+.form-textarea{
+    height: 220px;
+}
+
+textarea{
+    resize: none;
+}
+
+.form-content{
+    display: flex;
+}
+
+.form-col{
+    margin-right: 27px;
+    flex: 1;
+}
+
+.form-col:last-child {
+    margin-right: 0px;
+}
+
+.title-bottom{
+    color: #FFFFFF;;
+    margin-top: 92px;
+}
+
+.button{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px 33px 28px 33px;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+
+    background: #FED136;
+
+    border-radius: 4px;
+    border: 1px solid #FED136;
+
+}
+
+.button-item{
+    display: flex;
+    justify-content: center;
+    margin-top: 29px;
+}
